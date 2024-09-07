@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            font-weight: bold;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .introduction {
+            text-align: center;
+        }
+        .about-me {
+            margin-top: 20px;
+        }
+        .form-container {
+            margin-top: 30px;
+        }
+        .form-container input, .form-container select, .form-container textarea {
+            display: block;
+            width: 300px;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .form-container input[type="radio"] {
+            display: inline-block;
+            width: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="introduction">
+        <h1>Introduction</h1>
+        <img src="keon.jpg" alt="Profile Picture">
+        <h2>ABAYA, Keon Chanyel M.</h2>
+        <p>BSCS Student</p>
+        <hr>
+    </div>
+
+    <div class="about-me">
+        <h3>About Me</h3>
+        <p>
+            Hello I am <strong>Keon Chanyel M. Abaya</strong> and I am currently a BSCS Student.<br>
+            I am studying at Kolehiyo ng Lungsod ng Lipa<br>
+            and I am currently living at Balete Batangas.<br>
+           
+        </p>
+        
+        <ol>
+            <li><a href="hobbies.html"><strong>Hobbies</strong></a></li>
+            <br>
+            <li><a href="skills.html"><strong>Skills</strong></a></li>
+            <br>
+            <li><a href="My favorite musics.html"><strong>My favorite musics</strong></a></li>
+            <br>
+        </ol>
+    </div>
+    <hr>
+   
+    <form>
+        <label for="Full name">Full Name</label><br>
+        <input type="text" name="Full Name" id="Full Name" placeholder="Full name" /><br>
+<br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Email" /><br>
+<br>
+<label for="message">Your message</label><br>
+<textarea name="message" id="message"></textarea>
+<br>
+
+<label for="Gender">Gender</label><br>
+<select id="Gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select>
+<br>
+<br>
+<label for="country">Country</label><br>
+<select id="country">
+    <option value="philippines">Philippines</option>
+    <option value="russia">Russia</option>
+    <option value="Singapore">Singapore</option>
+    <option value="India">India</option>
+</select>
+<br>
+<br>
+
+<label>Job Type</label><br>
+<input type="radio" name="jobtype" value="parttime" id="parttime">
+<label for="parttime"></label>Part time</label>
+<br>
+<input type="radio" name="jobtype" value="fulltime" id="fulltime">
+<label for="fulltime"></label>Full Time</label>
+<br>
+<hr>
+
+
+
+    </form>
+
+    
+</body>
+</html>
