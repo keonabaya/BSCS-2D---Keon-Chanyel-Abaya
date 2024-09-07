@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('silog.jpg'); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.menu {
+    background-color: #d4a971;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.menu h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.menu h2 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+.menu p {
+    margin: 5px 0;
+}
+.menu hr {
+    border: 1px solid #8B4513;
+    margin: 20px 0;
+}
+.menu a {
+    color: #0000EE;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}

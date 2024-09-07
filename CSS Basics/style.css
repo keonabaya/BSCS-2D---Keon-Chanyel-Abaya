@@ -1,0 +1,50 @@
+body {
+    background-color: #1d194e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    padding: 70px;
+    width: 420px;
+    background-color: #1d1b8d;
+    border-radius: 8px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #161635;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.radio-group {
+    text-align: left;
+}
+.radio-group input {
+    width: auto;
+}
+.radio-group label {
+    display: inline;
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
